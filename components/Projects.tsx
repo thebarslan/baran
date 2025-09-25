@@ -53,7 +53,7 @@ const Projects = () => {
                   <Card className="w-full px-4 py-3">
                      <div className="project-container">
                         <div className="project-info-container">
-                           <h3 className="text-lg font-semibold">
+                           <h3 className="lg:text-lg text-base font-semibold">
                               {project.title}
                            </h3>
                            <Link
@@ -71,7 +71,7 @@ const Projects = () => {
                                  <Badge key={technology}>{technology}</Badge>
                               ))}
                            </div>
-                           <p className="text-[13px] text-muted-foreground text-end mt-4">
+                           <p className="lg:text-[13px] text-[12px] text-muted-foreground text-end mt-4">
                               {project.date}
                            </p>
                         </div>

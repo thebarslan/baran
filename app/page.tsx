@@ -9,7 +9,7 @@ export default function Home() {
       <main className="h-full">
          <Container>
             <div className="w-full py-4 flex">
-               <div className="container w-full flex gap-16 lg:flex-row flex-col">
+               <div className="container w-full flex lg:gap-16 gap-8 lg:flex-row flex-col">
                   <div className="left flex flex-col w-full flex-1 gap-6">
                      <Profile />
                      <About />

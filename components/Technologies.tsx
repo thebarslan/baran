@@ -45,7 +45,7 @@ const technologies = [
 
 const Technologies = () => {
    return (
-      <div className="technologies flex flex-col gap-4 mt-10">
+      <div className="technologies flex flex-col gap-4 lg:mt-10 mt-6">
          <div className="title-container">
             <h2 className="text-xl font-bold">TECHNOLOGIES</h2>
          </div>
