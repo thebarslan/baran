@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
    title: "Baran Arslan",
-   description: "Full Stack Developer & AI Enthusiast",
+   description: "Full Stack & Mobile Developer",
 };
 
 export default function RootLayout({
