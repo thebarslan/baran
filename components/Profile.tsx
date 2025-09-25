@@ -1,5 +1,5 @@
 import React from "react";
-import ProfieImage from "@/assets/images/baran.jpg";
+import ProfieImage from "@/assets/images/baran.jpeg";
 import Image from "next/image";
 import { FiGithub } from "react-icons/fi";
 import { FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
@@ -11,8 +11,8 @@ const Profile = () => {
             <Image
                src={ProfieImage}
                alt="Profile"
-               width={128}
-               height={128}
+               width={1000}
+               height={1000}
                className="rounded-full lg:h-32 lg:w-32 w-24 h-24 shadow-lg object-cover shrink-0"
             />
          </div>
