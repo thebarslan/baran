@@ -11,8 +11,8 @@ const Profile = () => {
             <Image
                src={ProfieImage}
                alt="Profile"
-               width={1000}
-               height={1000}
+               width={1200}
+               height={1200}
                className="rounded-full lg:h-32 lg:w-32 w-24 h-24 shadow-lg object-cover shrink-0"
             />
          </div>
