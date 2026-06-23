@@ -4,22 +4,17 @@ import { Badge } from "./ui/badge";
 const technologies = [
    {
       title: "Frontend",
-      items: ["React", "Next.js", "TypeScript", "Tailwind", "HTML", "CSS"],
+      items: ["React", "Next.js", "TypeScript", "Tailwind", "HTML", "CSS", "Shadcn/UI"],
    },
 
    {
       title: "Backend",
-      items: [
-         "Node.js",
-         "Express.js",
-         "Typescript",
-         "MongoDB",
-         "PostgreSQL",
-         "MySQL",
-         "Firebase",
-         "Supabase",
-         "PHP",
-      ],
+      items: ["Java", "Spring Boot", "Node.js", "Go", "Express.js", "PHP"],
+   },
+
+   {
+      title: "Databases & BaaS",
+      items: ["PostgreSQL", "MongoDB", "SQLite", "Supabase", "Firebase"],
    },
 
    {
@@ -28,18 +23,8 @@ const technologies = [
    },
 
    {
-      title: "Tools",
-      items: [
-         "Docker",
-         "Git",
-         "CI/CD",
-         "AWS",
-         "LLMs",
-         "Vercel",
-         "Netlify",
-         "Figma",
-         "Shadcn/UI",
-      ],
+      title: "Tools & Cloud",
+      items: ["Docker", "Kubernetes", "AWS", "Git", "CI/CD", "Vercel", "LLMs"],
    },
 ];
 

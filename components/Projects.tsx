@@ -6,11 +6,25 @@ import { Badge } from "./ui/badge";
 
 const projects = [
    {
-      title: "Co-founder & Lead Developer",
+      title: "Insider One - Software Developer",
+      link: "https://useinsider.com",
+      linkText: "useinsider.com",
+      description:
+         "Developing and optimizing responsive user interfaces and web applications to deliver real-time personalization experiences at scale.",
+      technologies: [
+         "JavaScript",
+         "React",
+         "HTML5",
+         "CSS3",
+      ],
+      date: "01/2026 - Present",
+   },
+   {
+      title: "Full Stack Developer (Collaborative Project)",
       link: "https://openpet.app",
       linkText: "openpet.app",
       description:
-         "Developed and maintained a mobile app and a backend server integrated with AI to help pet owners take care of their pets.",
+         "Co-developed a mobile application and an AI-integrated backend server with a teammate to help pet owners track and manage pet care.",
       technologies: [
          "React Native",
          "Expo",
@@ -20,21 +34,21 @@ const projects = [
          "MongoDB",
          "Firebase",
       ],
-      date: "06/2025 - Present",
+      date: "06/2025 - 01/2026",
    },
    {
-      title: "Fibabanka Fintern Internship",
+      title: "Fibabanka - Fintern Internship",
       link: "https://fibabanka.com.tr",
       linkText: "fibabanka.com.tr",
       description:
-         "Maintain CRM system and develop new features for the system.",
+         "Maintained internal CRM systems and developed new enterprise backend features to improve banking workflows.",
       technologies: [
-         "React",
-         "JavaScript",
          "Java",
          "Spring Boot",
          "MongoDB",
          "MySQL",
+         "React",
+         "JavaScript",
       ],
       date: "01/2025 - 06/2025",
    },
@@ -58,7 +72,8 @@ const Projects = () => {
                            </h3>
                            <Link
                               href={project.link}
-                              className="text-sm  text-green-400"
+                              className="text-sm text-green-400"
+                              target="_blank"
                            >
                               {project.linkText}
                            </Link>

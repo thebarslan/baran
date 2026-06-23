@@ -18,14 +18,8 @@ const Profile = () => {
          </div>
          <div className="profile-info-container flex flex-col gap-1 justify-center">
             <h1 className="lg:text-2xl text-xl font-bold">Baran Arslan</h1>
-            <p className="text-sm text-secondary-foreground">
-               Full Stack & Mobile Developer
-            </p>
-            <p className="text-[13px] text-secondary-foreground">
-               Co-founder {" "}
-               <Link href="https://openpet.app" className="text-green-400">
-                  @OpenPet
-               </Link>
+            <p className="text-sm text-green-400">
+               Full Stack Developer
             </p>
             <div className="social-icons flex gap-4 mt-3 text-muted-foreground">
                <Link

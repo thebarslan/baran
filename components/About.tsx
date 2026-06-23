@@ -8,9 +8,7 @@ const About = () => {
          </div>
          <div className="content-container">
             <p className="text-sm text-secondary-foreground">
-               24 years old developer from Turkey, specializing in Mobile and
-               SaaS development. Passionate about modern mobile and web
-               technologies and AI integration.
+               25-year-old software engineer from Turkey with a versatile background spanning enterprise backend, modern web frontend, and mobile development. Currently focusing all my energy on backend engineering, deep-diving into concurrency, clean architecture, and performance optimization.
             </p>
          </div>
       </div>
