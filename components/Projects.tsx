@@ -10,8 +10,9 @@ const projects = [
       link: "https://useinsider.com",
       linkText: "useinsider.com",
       description:
-         "Developing and optimizing responsive user interfaces and web applications to deliver real-time personalization experiences at scale.",
+         "Developing and optimizing responsive user interfaces, web applications, and Go backend services to deliver real-time personalization experiences at scale.",
       technologies: [
+         "Go",
          "JavaScript",
          "React",
          "HTML5",
