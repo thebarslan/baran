@@ -10,7 +10,7 @@ const projects = [
       link: "https://useinsider.com",
       linkText: "useinsider.com",
       description:
-         "Developing and optimizing responsive user interfaces, web applications, and Go backend services to deliver real-time personalization experiences at scale.",
+         "Developed and optimized responsive user interfaces, web applications, and Go backend services to deliver real-time personalization experiences at scale.",
       technologies: [
          "Go",
          "JavaScript",
@@ -18,24 +18,7 @@ const projects = [
          "HTML5",
          "CSS3",
       ],
-      date: "01/2026 - Present",
-   },
-   {
-      title: "Full Stack Developer (Collaborative Project)",
-      link: "https://openpet.app",
-      linkText: "openpet.app",
-      description:
-         "Co-developed a mobile application and an AI-integrated backend server with a teammate to help pet owners track and manage pet care.",
-      technologies: [
-         "React Native",
-         "Expo",
-         "TypeScript",
-         "Node.js",
-         "Express.js",
-         "MongoDB",
-         "Firebase",
-      ],
-      date: "06/2025 - 01/2026",
+      date: "01/2026 - 10/2026",
    },
    {
       title: "Fibabanka - Fintern Internship",
@@ -55,11 +38,25 @@ const projects = [
    },
 ];
 
+const sideProjects = [
+   {
+      title: "StyList - Teknasyon Hackathon 2024 (3rd Place)",
+      link: "https://lnkd.in/p/dqaS_Qgn",
+      linkText: "More Info",
+      image: "/teknasyon-hackathon.jpg",
+      imageAlt: "StyList team receiving the 3rd place award at Teknasyon Hackathon 2024",
+      description:
+         "Built StyList, an AI-powered mobile app that helps users choose outfits and integrates with clothing brands. Won 3rd place at Teknasyon Hackathon 2024, where I developed the backend.",
+      technologies: [] as string[],
+      date: "2024",
+   },
+];
+
 const Projects = () => {
    return (
       <div className="projects flex flex-col gap-4 mt-4">
          <div className="title-container">
-            <h2 className="text-xl font-bold">PROJECTS & EXPERIENCES</h2>
+            <h2 className="text-xl font-bold">EXPERIENCES & PROJECTS</h2>
          </div>
 
          <div className="content-container flex flex-col gap-4">
@@ -94,6 +91,40 @@ const Projects = () => {
                      </div>
                   </Card>
                </div>
+            ))}
+            {sideProjects.map((project) => (
+               <Card className="w-full px-4 py-3" key={project.title}>
+                  <Image
+                     src={project.image}
+                     alt={project.imageAlt}
+                     width={1067}
+                     height={542}
+                     className="w-full h-auto rounded-md mb-3"
+                  />
+                  <h3 className="lg:text-lg text-base font-semibold">
+                     {project.title}
+                  </h3>
+                  <p className="text-sm text-secondary-foreground mt-2">
+                     {project.description}
+                  </p>
+                  <Link
+                     href={project.link}
+                     className="text-sm text-green-400"
+                     target="_blank"
+                  >
+                     {project.linkText}
+                  </Link>
+                  {project.technologies.length > 0 && (
+                     <div className="technologies-container flex-wrap flex gap-2 mt-4">
+                        {project.technologies.map((technology) => (
+                           <Badge key={technology}>{technology}</Badge>
+                        ))}
+                     </div>
+                  )}
+                  <p className="lg:text-[13px] text-[12px] text-muted-foreground text-end mt-4">
+                     {project.date}
+                  </p>
+               </Card>
             ))}
          </div>
       </div>

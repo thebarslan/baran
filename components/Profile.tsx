@@ -29,12 +29,6 @@ const Profile = () => {
                   <FiGithub size={20} />
                </Link>
                <Link
-                  href="https://x.com/baranarslan096"
-                  className="hover:text-green-400 transition-all duration-300"
-               >
-                  <FaXTwitter size={20} />
-               </Link>
-               <Link
                   href="https://www.linkedin.com/in/baran-arslan-dev/"
                   className="hover:text-green-400 transition-all duration-300"
                >
